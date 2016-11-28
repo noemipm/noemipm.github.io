@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+
+<body>
+
+    <img id="mono" src="images/cabecera_mono.jpg" alt="fotomono">
+
+    <header id="bienvenida">
+        <h1>Let's work together</h1>
+    </header>
+
+    <div id="form">
+        <form action="process.php" method="post" id="leform">
+            <div id="contactleft">
+                <div id="Name">
+                    <label class="legend1">Your name</label><input name="nom" id="nom" value="" placeholder="Name / Surname" type="text">
+
+                </div>
+                <div id="email">
+                    <label class="legend2">Your email</label>
+                    <input name="email" id="mail" value="" placeholder="Your email" type="text">
+                </div>
+
+                <div id="sujet">
+                    <label class="legend3">Subject</label>
+                    <input name="sujet" id="subject" value="" placeholder="Subject" type="text">
+                </div>
+
+                <div id="proyect">
+                    <label class="legend4"> Your proyect</label><input name="proyecto" id="proyecto" placeholder="Your proyect" type="text">
+                </div>
+
+            </div>
+
+            <div id="contactright">
+                <label class="legend5">Your message</label><textarea name="message" id="message" cols="20" rows="8"></textarea>
+            </div>
+
+            <div class="clear"></div>
+            <input name="send" class="envoyer" value="Send the message" type="submit">
+        </form>
+        <div class="error"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

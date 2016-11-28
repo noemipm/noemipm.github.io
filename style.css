@@ -1,0 +1,59 @@
+* {box-sizing: border-box;}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-image: url(images/frida_fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 0%;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-family: "Futura W01 Book", Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #978156;
+	line-height: 20px;
+}
+
+#extracto {
+	padding: 20px;
+	display: flex;
+	margin-left: 50px;
+	margin-top: 50px;
+	color: #978156;
+	font-size: 40px;
+	font-family: "Futura W01 Book", Arial, sans-serif;
+	max-width: 30%;
+}
+
+.menu {
+	font-size: 20px;;
+	-webkit-font-smoothing: antialiased;
+}
+
+.menu ul {
+	display: flex;
+	list-style-type : none;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.menu li {
+	text-align: center;
+	margin: 30px;
+}
+
+.menu li a {
+	padding: 2px 7px 2px 7px;
+	color: #978156;
+	font-family: "Futura W01 Book", Arial, sans-serif;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}

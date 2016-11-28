@@ -1,0 +1,24 @@
+
+
+body {
+    background-image: url(images/imagen_maleta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+}
+
+
+.container {
+	text-align: center;
+}
+
+p {margin: auto;
+	text-align: center;
+    font-size: 30px;
+	max-width: 800px;
+    letter-spacing: 2px;
+    font-family: "Futura W01 Book", Arial, sans-serif;
+    color: #978156;
+   
+}

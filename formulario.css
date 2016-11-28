@@ -1,0 +1,150 @@
+body, div, a, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Futura W01 Book", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #978156;
+    line-height: 20px;
+}
+
+#form {
+    width: 84%;
+    margin: 50px auto 100px auto;
+}
+
+#contactleft {
+    position: relative;
+    float: left;
+    width: 45%;
+    font-family: "Futura W01 Book", Arial, sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #978156;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+#mono {
+    width: 100%;
+}
+
+#Name {
+    display: flex;
+    flex-direction: column;
+}
+
+#mail {
+    display: flex;
+    flex-direction: column;
+}
+
+#subject {
+    display: flex;
+    flex-direction: column;
+}
+
+#proyect {display: flex;
+    flex-direction: column;
+}
+
+input {
+    opacity: 1;
+    border: none;
+    border-bottom: 3px solid #cdcdcd;
+    padding: 15px 0px;
+    margin-top: 0px;
+    margin-bottom: 47px;
+    background: none;
+    color: #929292;
+    font-family: 'Futura W01 Book', Arial, sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    outline: none;
+}
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#contactright {
+    position: relative;
+    float: right;
+    width: 45%;
+    font-family: "Futura W01 Book", Arial, sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #978156;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+#contactright textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+textarea {
+    width: 100%;
+    padding: -15px 0 15px 0;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    color: #929292;
+    background: url(design/line.png);
+    background-repeat: repeat;
+    background-position: 0 0px;
+    font-family: "Futura W01 Book", Arial, sans-serif;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    line-height: 50px;
+    outline: none;
+    opacity: 1;
+    resize: none;
+}
+
+input.envoyer {
+    position: relative;
+    display: block;
+    padding: 0;
+    border: 3px solid #978156;
+    font-family: "Futura W01 Heavy", Arial, sans-serif;
+    font-weight: bold;
+    color: #978156;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    line-height: 100px;
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    font-weight: normal;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 1;
+    background: linear-gradient(to bottom, #978156 50%, #FFF 50%);
+    background-position: 0 -100px;
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
